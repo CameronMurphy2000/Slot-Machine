@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    font-family: Arial;
+    margin-top: 50px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.reels {
+    font-size: 50px;
+    margin: 20px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+}
