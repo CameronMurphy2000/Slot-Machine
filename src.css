@@ -3,16 +3,23 @@ body {
     font-family: Arial;
     margin-top: 50px;
 }
-.container {
+.slot {
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    gap: 20px;
 }
 .reels {
     font-size: 50px;
-    margin: 20px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    padding-bottom: 40px;
 }
 button {
     padding: 10px 20px;
     font-size: 18px;
+    cursor: pointer;
 }
