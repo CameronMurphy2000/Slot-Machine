@@ -11,14 +11,24 @@
     <h1>🎰 Slot Machine</h1>
 
     <div class="slot">
-        <div class="reels" id="reel1">🍒</div>
-        <div class="reels" id="reel2">🍋</div>
-        <div class="reels" id="reel3">🍊</div>
+        <div class="reel-window">
+            <div class="reel-strip" id="reel1"></div>
+        </div>
+        <div class="reel-window">
+            <div class="reel-strip" id="reel2"></div>
+        </div>
+        <div class="reel-window">
+            <div class="reel-strip" id="reel3"></div>
+        </div>
     </div>
 
     <button onclick="spin()">Spin</button>
 
+    <h2 id="balance">Tokens: 0</h2>
+    <button onclick="addTokens()">Add 50 Tokens</button>
+
     <h2 id="result"></h2>
+    <h3 id="paylineDisplay"></h3>
 
     <script src="source.js"></script>
     
